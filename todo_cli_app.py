@@ -1,4 +1,5 @@
 #this is a todo list app we add task and delet that tasks is done
+#creat a file with same name in same folder before proceed furtur
 file="todo_list.txt"
 #opening file 
 with open(file) as f:
