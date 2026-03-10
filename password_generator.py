@@ -6,6 +6,6 @@ import secrets
 #length=int(input("input the length of password:"))
 length=10
 charecters=string.ascii_letters+string.digits
-#randoly pick characters and digits to form a password and print it 
+#randomly pick characters and digits to form a password and print it 
 password="".join(secrets.choice(charecters)for i in range(length))
 print(password)
